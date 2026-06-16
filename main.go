@@ -1,8 +1,3 @@
-
-# Let me write the file properly without the Python variable wrapper
-with open('/mnt/agents/output/main.go', 'w') as f:
-    f.write("""package main
-
 import (
 	"crypto/rand"
 	"crypto/sha1"
